@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1566734874914,
+  "timestamp": 1566739595806,
   "appData": {
     "version": "5.0.0"
   },
@@ -13,8 +13,8 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main-es2015.3b92b6efda381efa4684.js",
-        "/main-es5.e6be4514bc4b52b83490.js",
+        "/main-es2015.47da4ed637546d4aaa73.js",
+        "/main-es5.51ad448e04d522db7c49.js",
         "/polyfills-es2015.87a4cabb4d17f1a7099c.js",
         "/polyfills-es5.7ed613a1b41484013e2b.js",
         "/runtime-es2015.5bc68c0dd8cf137fbe82.js",
@@ -45,7 +45,7 @@
     {
       "name": "sw-riset",
       "patterns": [
-        "https:\\/\\/dapifer\\.serveo\\.net\\/todo"
+        "https:\\/\\/todo\\.serveo\\.net\\/todo"
       ],
       "strategy": "freshness",
       "maxSize": 10,
@@ -65,9 +65,9 @@
     "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/assets/image/loading4.gif": "fb1e7c90b48ee60755d4fddc63e975fc7ca50b03",
     "/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/index.html": "c24d3cbd0d294e6ea1415bd1e3724143058bd3ec",
-    "/main-es2015.3b92b6efda381efa4684.js": "fe4ab1237592c2eacaf775a3468da8a3a10362c8",
-    "/main-es5.e6be4514bc4b52b83490.js": "adcb5d72c7c2995299553510eba498b0d01c19dc",
+    "/index.html": "e7003649e5057f59cac2840e6a90c8f3b740b09d",
+    "/main-es2015.47da4ed637546d4aaa73.js": "4e81b0b402b1d5d526adbd1b853e5319a2aac83d",
+    "/main-es5.51ad448e04d522db7c49.js": "67c94636a3656d4dd664e864b4d82779d390e38d",
     "/polyfills-es2015.87a4cabb4d17f1a7099c.js": "d21049685732ea03dc1061ce76e40c4f94d83d2c",
     "/polyfills-es5.7ed613a1b41484013e2b.js": "3c60ba8ed6bc1aac48a482f5d4a005a1525288c0",
     "/runtime-es2015.5bc68c0dd8cf137fbe82.js": "4f67805e221db127ddeb7d3ecb844608a2f99f9e",

@@ -33,7 +33,7 @@
       "name": "sw-riset",
       "version": 1,
       "urls": [
-        "https://dapifer.serveo.net/todo"
+        "https://todo.serveo.net/todo"
       ],
       "cacheConfig": {
         "maxAge": "1h",

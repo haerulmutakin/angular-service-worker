@@ -6,8 +6,8 @@ import { HttpClient } from '@angular/common/http';
 })
 export class TodoService {
 
-  // apiUrl = 'https://dapifer.serveo.net/todo';
-  apiUrl = 'http://localhost:1323/todo';
+  apiUrl = 'https://todo.serveo.net/todo';
+  // apiUrl = 'http://localhost:1323/todo';
 
   constructor(private httpCLient: HttpClient) { }
 
