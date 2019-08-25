@@ -1,0 +1,23 @@
+<div class="navbar">
+  <div class="data">
+    <p class="date">19</p>
+    <div class="month-year">
+      <p>September</p>
+      <p>2019</p>
+    </div>
+  </div>
+  <div class="day">
+    Thursday
+  </div>
+</div>
+<div class="todo-container">
+  <div class="form-wrapper">
+    <input class="todo-input" placeholder="Today i want to..." type="text" [(ngModel)]="typeValue" (change)="addTodo()"/>
+  </div>
+  <ul *ngIf="todoList.length > 0">
+    <li *ngFor="let todo of todoList; let i = index" [ngClass]="{'completed' : todo.completed === 1}">
+      {{todo.name}}
+      <span *ngIf="todo.completed === 0" class="todo-del" (click)="updateTodo(todo.id)">L</span>
+    </li>
+  </ul>
+</div>
