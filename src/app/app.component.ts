@@ -16,6 +16,7 @@ export class AppComponent {
   dayData: Array<any> = [];
   typeValue = '';
   todoList = [];
+  date: any = {};
 
   constructor(
     private appRef: ApplicationRef,
@@ -25,6 +26,7 @@ export class AppComponent {
     ) {
     this.fetchTodo();
     this.notifyUpdates();
+    this.getDateNow();
   }
 
   addTodo() {
@@ -82,5 +84,16 @@ export class AppComponent {
         document.location.reload();
       });
     });
+  }
+
+  private getDateNow() {
+    // tslint:disable-next-line:max-line-length
+    const months = ['January', 'February', 'March', 'April', 'Mei', 'June', 'July', 'Augustus', 'September', 'October', 'November', 'December'];
+    const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+    const current = new Date();
+    this.date.date = current.getDate();
+    this.date.month = months[current.getMonth()];
+    this.date.year = current.getFullYear();
+    this.date.day = days[current.getDay()];
   }
 }
